@@ -13,7 +13,8 @@
 4. Предполагается, что тестируемый сайт использует динамическую генерацию элементов на странице, т.е. выбор элемента в DOM должен осуществляться не на основании его ID, а с помощью [XPath](http://ru.wikipedia.org/wiki/XPath).
 
 ## Расположение файлов
-+ [Tests](./src/test/java/com/krivonosovandmarkov) `<- Классы для тестирования`
++ [Main](./src/main/java/org/example) `<- Классы с логикой`
++ [Tests](./src/test/java/org/example) `<- Классы для тестирования`
 
 ## Полезная информация
 + [JUnit 5](https://www.baeldung.com/parameterized-tests-junit-5)
